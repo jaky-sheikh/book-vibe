@@ -1,16 +1,11 @@
-import React, { useEffect } from 'react';
+
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import ListedBooks from './ListedBooks';
-import { useLoaderData } from 'react-router-dom';
+// import ListedBooks from './ListedBooks';
+
 const ListedBooks = () => {
 
-    const allBooks = useLoaderData();
-
-    useEffect(() =>{
-
-    }, [])
-
+    
 
     return (
         <div>
